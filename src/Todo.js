@@ -38,7 +38,7 @@ const Todo = () => {
             value={input}
             onChange={getvalue}
           />
-          <button onClick={AddItem}>Add</button>
+          <button disabled= {!input} onClick={AddItem}>Add</button>
           <ol>
             {item.map((value, index) => {
               return (
