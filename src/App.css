@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: rgba(114, 111, 105, 0.411);
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.todo-container{
+  width: 30%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+}
+h1{
+  color: white;
+  background: transparent;
+  background-color: rgb(84, 74, 238);
+  padding: 4px 0;
+}
+input{
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid blue;
+  outline: none;
+}
+button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(140, 92, 204);
+  margin-left: 10px;
+  
+}
+button:hover{
+  background-color: green;
+}
+.list{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.list button{
+  font-size: 12px;
+  height: 40px;
+  width: 40px;
+  
+}
+.list button:hover{
+  background-color: red;
+}
+ol{
+  margin-top: 20px;
+  list-style: none;
+}
+ li{
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(95, 128, 172);
+  
+}
